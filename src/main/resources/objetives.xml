@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="object_student" class="org.springaop.class07.model.Student"></bean>
+    <bean id="object_teacher" class="org.springaop.class07.model.Teacher"></bean>
+    <bean id="object_teacherhomework" class="org.springaop.class07.model.TeacherHomework"></bean>
+    <bean id="object_studenthomework" class="org.springaop.class07.model.StudentHomework"></bean>
+    <bean id="jdbcserve" class="org.springaop.class07.jdbc.StudentHomeworkJdbc"></bean>
+
+</beans>
